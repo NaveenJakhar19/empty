@@ -1,3 +1,11 @@
+First make a new repo on github
+
+Second create a new folder in PC with same name as that of repo and paste you work in it
+
+Third Open that folder in CMD
+
+And afer that use these commands
+
 C:\Users\navee\OneDrive\Desktop\empty>git init
 Initialized empty Git repository in C:/Users/navee/OneDrive/Desktop/empty/.git/
 
@@ -17,33 +25,9 @@ C:\Users\navee\OneDrive\Desktop\empty>git commit -m "First Commit"
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README.md
 
-C:\Users\navee\OneDrive\Desktop\empty>git push
-fatal: No configured push destination.
-Either specify the URL from the command-line or configure a remote repository using
-
-    git remote add <name> <url>
-
-and then push using the remote name
-
-    git push <name>
-
-
-C:\Users\navee\OneDrive\Desktop\empty>git add .
-
-C:\Users\navee\OneDrive\Desktop\empty>git commit -m "first commit"
-On branch master
-nothing to commit, working tree clean
-
 C:\Users\navee\OneDrive\Desktop\empty>git branch -M main
 
-C:\Users\navee\OneDrive\Desktop\empty>git add origin https://github.com/NaveenJakhar19/empty.git
-fatal: pathspec 'origin' did not match any files
-
 C:\Users\navee\OneDrive\Desktop\empty>git remote add origin https://github.com/NaveenJakhar19/empty.git
-
-C:\Users\navee\OneDrive\Desktop\empty>git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'https://github.com/NaveenJakhar19/empty.git'
 
 C:\Users\navee\OneDrive\Desktop\empty>git remote add origin git@github.com:NaveenJakhar19/empty.git
 error: remote origin already exists.
