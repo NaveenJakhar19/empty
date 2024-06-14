@@ -11,15 +11,6 @@ Initialized empty Git repository in C:/Users/navee/OneDrive/Desktop/empty/.git/
 
 C:\Users\navee\OneDrive\Desktop\empty>git add .
 
-C:\Users\navee\OneDrive\Desktop\empty>git commit -m "first commit"
-On branch master
-
-Initial commit
-
-nothing to commit (create/copy files and use "git add" to track)
-
-C:\Users\navee\OneDrive\Desktop\empty>git add .
-
 C:\Users\navee\OneDrive\Desktop\empty>git commit -m "First Commit"
 [master (root-commit) d7f1bb3] First Commit
  1 file changed, 0 insertions(+), 0 deletions(-)
@@ -28,9 +19,6 @@ C:\Users\navee\OneDrive\Desktop\empty>git commit -m "First Commit"
 C:\Users\navee\OneDrive\Desktop\empty>git branch -M main
 
 C:\Users\navee\OneDrive\Desktop\empty>git remote add origin https://github.com/NaveenJakhar19/empty.git
-
-C:\Users\navee\OneDrive\Desktop\empty>git remote add origin git@github.com:NaveenJakhar19/empty.git
-error: remote origin already exists.
 
 C:\Users\navee\OneDrive\Desktop\empty>git push -u origin main
 Enumerating objects: 3, done.
