@@ -1,0 +1,58 @@
+C:\Users\navee\OneDrive\Desktop\empty>git init
+Initialized empty Git repository in C:/Users/navee/OneDrive/Desktop/empty/.git/
+
+C:\Users\navee\OneDrive\Desktop\empty>git add .
+
+C:\Users\navee\OneDrive\Desktop\empty>git commit -m "first commit"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\navee\OneDrive\Desktop\empty>git add .
+
+C:\Users\navee\OneDrive\Desktop\empty>git commit -m "First Commit"
+[master (root-commit) d7f1bb3] First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+C:\Users\navee\OneDrive\Desktop\empty>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\Users\navee\OneDrive\Desktop\empty>git add .
+
+C:\Users\navee\OneDrive\Desktop\empty>git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\navee\OneDrive\Desktop\empty>git branch -M main
+
+C:\Users\navee\OneDrive\Desktop\empty>git add origin https://github.com/NaveenJakhar19/empty.git
+fatal: pathspec 'origin' did not match any files
+
+C:\Users\navee\OneDrive\Desktop\empty>git remote add origin https://github.com/NaveenJakhar19/empty.git
+
+C:\Users\navee\OneDrive\Desktop\empty>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/NaveenJakhar19/empty.git'
+
+C:\Users\navee\OneDrive\Desktop\empty>git remote add origin git@github.com:NaveenJakhar19/empty.git
+error: remote origin already exists.
+
+C:\Users\navee\OneDrive\Desktop\empty>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 221 bytes | 73.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/NaveenJakhar19/empty.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
